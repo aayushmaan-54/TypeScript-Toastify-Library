@@ -1,0 +1,33 @@
+{
+  "name": "typescript-toastify-library",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+
+  "files": [ "lib/**/*" ],
+
+  "scripts": {
+    "build": "rm -rf lib && tsc",
+    "prepare": "npm run build"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  
+  "bugs": {
+    "url": ""
+  },
+
+  "homepage": "",
+
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
