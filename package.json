@@ -3,30 +3,25 @@
   "version": "1.0.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-
-  "files": [ "lib/**/*" ],
-
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "build": "rm -rf lib && tsc",
     "prepare": "npm run build"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aayushmaan-54/TypeScript-Toastify-Library"
   },
-
   "keywords": [],
   "author": "",
   "license": "MIT",
   "description": "",
-  
   "bugs": {
     "url": "https://github.com/aayushmaan-54/TypeScript-Toastify-Library/pulls"
   },
-
-  "homepage": "",
-
+  "homepage": "https://github.com/aayushmaan-54/TypeScript-Toastify-Library/blob/main/README.md",
   "devDependencies": {
     "typescript": "^5.4.5"
   }
