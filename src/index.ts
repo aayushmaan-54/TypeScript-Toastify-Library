@@ -5,7 +5,7 @@ import './style.css';
 
 const DEFAULT_OPTIONS: ToastOptions = {
   position: 'top-right',
-  toastMsg: 'TypeScript Toastify',
+  toastMsg: '🦚 TypeScript Toastify',
   autoCloseTime: 5000,
   onClose: () => { },
   canClose: true,
@@ -174,8 +174,6 @@ export default class Toast {
     this.#type = value;
 
     if (value === 'default') {
-        this.#toastEle.textContent = '🦚 TypeScript Toastify';
-
     } else if (value === 'error') {
         svgContainer.innerHTML = error;
         this.#toastEle.style.setProperty('--light_bg', `var(--error-primary)`);
