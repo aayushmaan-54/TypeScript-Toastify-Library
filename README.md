@@ -1,4 +1,4 @@
-# TypeScript-Toastify-Library
+# TypeScript-Toastify
 
 
 ![Twitter](https://img.shields.io/twitter/follow/aayushmaan54.svg?style=social&label=aayushmaan54) ![npm](https://img.shields.io/npm/v/ts-toastify.svg?style=for-the-badge) ![NPM](https://img.shields.io/npm/l/ts-toastify.svg?label=%F0%9F%93%9Clicense&style=for-the-badge)
