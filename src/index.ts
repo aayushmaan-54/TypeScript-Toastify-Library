@@ -173,8 +173,8 @@ export default class Toast {
     svgContainer.classList.add('toast-icon');
     this.#type = value;
 
-    if (value === 'default') {
-    } else if (value === 'error') {
+    if (value === 'default') {} 
+    else if (value === 'error') {
         svgContainer.innerHTML = error;
         this.#toastEle.style.setProperty('--light_bg', `var(--error-primary)`);
         this.#toastEle.style.setProperty('--dark_bg', `var(--error-primary)`);

@@ -1,25 +1,39 @@
 {
   "name": "typescript-toastify-library",
   "version": "1.0.0",
+
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
     "lib/**/*"
   ],
+
   "scripts": {
     "build": "rm -rf lib && tsc && cp ./src/style.css ./lib",
     "prepare": "npm run build"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aayushmaan-54/TypeScript-Toastify-Library"
   },
-  "keywords": [],
-  "author": "",
+
+  "keywords": [
+    "typescript", 
+    "notification", 
+    "alert", 
+    "error", 
+    "toastify", 
+    "toast", 
+    "toast notification", 
+    "toast library"
+  ],
+
+  "author": "Aayushmaan Soni <aayushmaan.soni54@gmail.com>",
   "license": "MIT",
-  "description": "",
+  "description": "TypeScript Toast Notification Library",
   "bugs": {
-    "url": "https://github.com/aayushmaan-54/TypeScript-Toastify-Library/pulls"
+    "url": "https://github.com/aayushmaan-54/TypeScript-Toastify-Library/issues"
   },
   "homepage": "https://github.com/aayushmaan-54/TypeScript-Toastify-Library/blob/main/README.md",
   "devDependencies": {
