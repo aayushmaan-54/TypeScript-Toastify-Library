@@ -7,7 +7,7 @@
     "lib/**/*"
   ],
   "scripts": {
-    "build": "rm -rf lib && tsc",
+    "build": "rm -rf lib && tsc && cp ./src/style.css ./lib",
     "prepare": "npm run build"
   },
   "repository": {
