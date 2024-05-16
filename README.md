@@ -1,8 +1,8 @@
 # TypeScript-Toastify
 
 
-![Twitter](https://img.shields.io/twitter/follow/aayushmaan54.svg?style=social&label=aayushmaan54) ![npm](https://img.shields.io/npm/v/ts-toastify.svg?style=for-the-badge) ![NPM](https://img.shields.io/npm/l/ts-toastify.svg?label=%F0%9F%93%9Clicense&style=for-the-badge)
-<!-- [![npm](https://img.shields.io/npm/dt/ts-toastify.svg)](https://www.npmjs.com/package/ts-toastify) -->
+![Twitter](https://img.shields.io/twitter/follow/aayushmaan54.svg?style=social&label=aayushmaan54) ![npm](https://img.shields.io/npm/v/typescript-toastify.svg?style=for-the-badge) ![NPM](https://img.shields.io/npm/l/typescript-toastify.svg?label=%F0%9F%93%9Clicense&style=for-the-badge)
+[![npm](https://img.shields.io/npm/dt/typescript-toastify.svg)](https://www.npmjs.com/package/typescript-toastify)
 
 
 🦚 TypeScript Toastify allows you to add toast notifications to your web app easily.
@@ -14,7 +14,7 @@
 ## Installation
 
 ```
-$ npm i ts-toastify
+> npm i typescript-toastify
 ```
 
 ## Features
@@ -36,7 +36,7 @@ $ npm i ts-toastify
 ## The gist
 
 ```typescript
-import Toast from 'ts-toastify';
+import Toast from 'typescript-toastify';
 
 const toast = new Toast({
   position: 'top-right',
@@ -57,10 +57,10 @@ const toast = new Toast({
 
 ## Demo
 
-[A demo is worth a thousand words](https://type-script-toastify-library-website.vercel.app/)
+[A demo is worth a thousand words](https://typescript-toastify.vercel.app/)
 
 ## Documentation
-Check the [documentation](https://type-script-toastify-library-website.vercel.app/) to get you started!
+Check the [documentation](https://typescript-toastify.vercel.app/) to get you started!
 
 ## Reach me at 🠮
 <p align="center">
