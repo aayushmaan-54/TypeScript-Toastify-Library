@@ -38,6 +38,7 @@
   margin-left: auto;
   overflow: hidden;
   display: flex;
+  z-index: 9999;
 }
 
 .toast-container[data-position$="-right"] .toast {
